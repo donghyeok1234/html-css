@@ -14,7 +14,7 @@ div{
 
 a,
 a:link,
-a:visited, /*마우스를 올리고 있을떄*/
+a:visited,
 a:active, 
 a:focus
 {

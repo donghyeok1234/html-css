@@ -5,25 +5,23 @@
     text-align: center;
     font-size: 14px;
     padding: 5px;
-    
 }
 
-a,
-a:link,
-a:visited,
-a:active, 
-a:focus
+li,
+li:link,
+li:visited,
+li:active, 
+li:focus
 {
     text-decoration: none;
     color: black
 }
 
-a:hover
+li:hover
 {
     text-decoration: underline;
-    color: green;
+    color: yellowgreen;
     background-color: rgb(53, 50, 50);
-    
 }
 
 .str-back{
@@ -69,17 +67,18 @@ a:hover
     font-size: 14px;
 }
 
-.button-stlye,
-.button-stlye:link,
-.button-stlye:visited,
-.button-stlye:active,
-.button-stlye:focus{
+.text-button,
+.text-button:link,
+.text-button:visited,
+.text-button:active,
+.text-button:focus{
     text-decoration: none;
     color: black;
 }
 
-.button-stlye:hover{
+.text-button:hover{
     text-decoration: underline;
     color: white;
     background-color: black;
+    border: black;
 }
