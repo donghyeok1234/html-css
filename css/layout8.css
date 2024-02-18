@@ -1,6 +1,10 @@
+body{
+    margin: 0;
+}
+
 div{
     border: 1px solid yellowgreen;
-    width: 400px;
+    box-sizing: border-box;
 }
 
 .nav li{
@@ -60,7 +64,35 @@ a:hover{
 }
 
 .target{
+    background: gray;
     position: relative;
     left: 750px;
     top: -20px;
+}
+
+.input-class{
+    width: 200px;
+}
+
+.input-class input{
+    box-sizing: border-box;
+}
+
+.input-class input[type="text"],
+.input-class input[type="number"]
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 5px solid purple;
+    border-radius: 15px;
+}
+
+.my-table{
+    border-collapse: collapse;
+}
+
+.my-table tr td{
+    border: 1px solid black;
+    width: 200px;
 }
